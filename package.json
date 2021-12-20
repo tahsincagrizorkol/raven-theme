@@ -1,0 +1,25 @@
+{
+    "name": "raven-theme",
+    "displayName": "Raven Theme",
+    "description": "New theme for developers",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark theme",
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Raven Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Raven Theme-color-theme.json"
+            }
+        ]
+    }
+}
